@@ -1,0 +1,11 @@
+{
+  "raw_rows": 14999,
+  "columns": 10,
+  "duplicate_rows_removed": 3008,
+  "analysis_rows": 11991,
+  "missing_values": 0,
+  "raw_departures": 3571,
+  "analysis_departures": 1991,
+  "analysis_departure_rate": 0.1660411975648403,
+  "source_sha256": "af8c4cede39f28b5a67c748a66aa850fe260f908cbeaa226694121e0a9a4e105"
+}

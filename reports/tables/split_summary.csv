@@ -1,0 +1,3 @@
+partition,rows,departures,departure_rate
+Train,8993,1493,0.16601801401089736
+Test,2998,498,0.16611074049366245

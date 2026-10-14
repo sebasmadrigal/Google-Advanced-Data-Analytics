@@ -1,0 +1,21 @@
+{
+  "execution_method": "Plain Python cell runner; fresh namespace per notebook",
+  "notebooks": [
+    {
+      "file": "01_data_exploration.ipynb",
+      "executed_code_cells": 20,
+      "errors": 0
+    },
+    {
+      "file": "02_modeling_and_evaluation.ipynb",
+      "executed_code_cells": 42,
+      "errors": 0
+    }
+  ],
+  "raw_source_sha256_matches": true,
+  "confusion_matrix_metrics_reconciled": true,
+  "relative_markdown_links_valid": true,
+  "pdf_pages": 1,
+  "pdf_visual_review": "passed",
+  "jupyter_ui_tested": false
+}

@@ -1,0 +1,68 @@
+{
+  "audit": {
+    "raw_rows": 14999,
+    "columns": 10,
+    "duplicate_rows_removed": 3008,
+    "analysis_rows": 11991,
+    "missing_values": 0,
+    "raw_departures": 3571,
+    "analysis_departures": 1991,
+    "analysis_departure_rate": 0.1660411975648403,
+    "source_sha256": "af8c4cede39f28b5a67c748a66aa850fe260f908cbeaa226694121e0a9a4e105"
+  },
+  "train_rows": 8993,
+  "test_rows": 2998,
+  "test_departures": 498,
+  "seed": 0,
+  "threshold": 0.5,
+  "selected_model": "Random forest",
+  "selected_scenario": "reduced",
+  "selection_metric": "training four-fold CV ROC AUC",
+  "selected_cv_roc_auc": 0.9672178257898334,
+  "selected_best_params": {
+    "model__max_depth": null,
+    "model__max_features": "sqrt",
+    "model__max_samples": 0.7,
+    "model__min_samples_leaf": 3,
+    "model__n_estimators": 200
+  },
+  "selected_test_scores": {
+    "scenario": "reduced",
+    "model": "Random forest",
+    "roc_auc": 0.9682357429718875,
+    "average_precision": 0.904464689909462,
+    "precision": 0.9049586776859504,
+    "recall": 0.8795180722891566,
+    "f1": 0.8920570264765784,
+    "accuracy": 0.9646430953969313
+  },
+  "confusion_matrix": [
+    [
+      2454,
+      46
+    ],
+    [
+      60,
+      438
+    ]
+  ],
+  "top_features": [
+    "number_project",
+    "tenure",
+    "last_evaluation",
+    "overworked"
+  ],
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0"
+  }
+}
