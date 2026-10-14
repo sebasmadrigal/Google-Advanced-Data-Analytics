@@ -96,8 +96,6 @@ predictive information, affecting their individual importance estimates.
 
 ### Limitations
 
-- Evaluation is internal to the supplied educational dataset. Generalization requires a later,
-  independently collected cohort.
 - Collection dates, predictor timing, exit type and employee identifiers remain undocumented.
 - Exact-repeat removal and the 175-hour workload cutoff are analytical assumptions.
 - Structured clusters and limited provenance constrain interpretation across workforces.
@@ -163,5 +161,3 @@ Certificate**, using the Salifort Motors business scenario and the supplied HR d
 - [scikit-learn: ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html)
 - [scikit-learn: pipelines and data leakage](https://scikit-learn.org/stable/common_pitfalls.html)
 - [scikit-learn: permutation importance](https://scikit-learn.org/stable/modules/permutation_importance.html)
-
-Third-party data and course materials remain subject to their respective terms.
